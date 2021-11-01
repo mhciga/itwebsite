@@ -473,7 +473,7 @@ a:focus {
 
 .section-header p {
     color: #fdbe33;
-    font-size: 18px;
+    font-size: 36px;
     font-weight: 600;
     margin-bottom: 5px;
 }
@@ -2232,4 +2232,11 @@ a:focus {
         margin: 5px 0;
         text-align: center;
     }
+}
+
+.img_source {
+    color: black;
+    font-size: 12px;
+    padding-top: 5px;
+    text-align: center;
 }
