@@ -1263,7 +1263,7 @@ a:focus {
     font-size: 18px;
     font-weight: 700;
     color: #fdbe33;
-    text-align: left;
+    text-align: center;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -1328,6 +1328,7 @@ a:focus {
 .blog .blog-text p {
     margin: 0;
     font-size: 16px;
+    text-align: left;
 }
 
 .blog .pagination .page-link {
