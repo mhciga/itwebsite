@@ -1132,6 +1132,10 @@ a:focus {
     border-top: none;
 }
 
+.faqs .card-body li {
+    margin-bottom: 15px;
+}
+
 
 /*******************************/
 /******* Testimonial CSS *******/
