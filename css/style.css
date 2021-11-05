@@ -485,6 +485,10 @@ a:focus {
     font-weight: 700;
 }
 
+.section-header h3 {
+    text-decoration:underline;
+}
+
 @media (max-width: 767.98px) {
     .section-header h2 {
         font-size: 30px;
