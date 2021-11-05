@@ -1263,7 +1263,7 @@ a:focus {
 .blog .blog-title h3 {
     margin: 0;
     padding: 0 15px 0 25px;
-    width: calc(100% - 60px);
+    width: calc(100%);
     font-size: 18px;
     font-weight: 700;
     color: #fdbe33;
@@ -1325,7 +1325,7 @@ a:focus {
 }
 
 .blog .blog-text {
-    padding: 10px 25px 25px 25px;
+    padding: 25px 25px 25px 25px;
     background: #f3f6ff;
 }
 
