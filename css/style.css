@@ -2357,3 +2357,7 @@ a:focus {
     padding-top: 5px;
     text-align: center;
 }
+
+.mid-container{
+    padding-bottom: 40px;
+}
