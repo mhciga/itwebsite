@@ -929,6 +929,114 @@ a:focus {
 
 
 /*******************************/
+/*********** Youtube CSS **********/
+/*******************************/
+.youtube {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 15px 0;
+}
+
+.youtube .youtube-item {
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+
+.youtube .youtube-img {
+    position: relative;
+}
+
+.youtube .youtube-img img {
+    width: 100%;
+}
+
+.youtube .youtube-text {
+    position: relative;
+    padding: 25px 15px;
+    text-align: center;
+    background: #030f27;
+    transition: .5s;
+}
+
+.youtube .youtube-text h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fdbe33;
+    transition: .5s;
+}
+
+.youtube .youtube-text p {
+    margin: 0;
+    color: #ffffff;
+}
+
+.youtube .youtube-item:hover .team-text {
+    background: #fdbe33;
+}
+
+.youtube .youtube-item:hover .team-text h2 {
+    color: #030f27;
+    letter-spacing: 1px;
+}
+
+.youtube .youtube-social {
+    position: absolute;
+    width: 100px;
+    top: 0;
+    left: -50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 0;
+}
+
+.youtube .youtube-social a {
+    position: relative;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.youtube .youtube-item:hover .youtube-social a:first-child {
+    background: #00acee;
+    left: 50px;
+    transition: .3s 0s;
+}
+
+.youtube .youtube-item:hover .youtube-social a:nth-child(2) {
+    background: #3b5998;
+    left: 50px;
+    transition: .3s .1s;
+}
+
+.youtube .youtube-item:hover .youtube-social a:nth-child(3) {
+    background: #0e76a8;
+    left: 50px;
+    transition: .3s .2s;
+}
+
+.youtube .youtube-item:hover .youtube-social a:nth-child(4) {
+    background: #3f729b;
+    left: 50px;
+    transition: .3s .3s;
+}
+
+.youtube .pagination .page-link {
+    color: #030f27;
+    border-radius: 0;
+    border-color: #fdbe33;
+}
+.youtube .pagination .page-item.active .page-link {
+    color: #fdbe33;
+    background: #030f27;
+}
+
+/*******************************/
 /*********** Team CSS **********/
 /*******************************/
 .team {
