@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Builderz - Construction Company Website Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Construction Company Website Template" name="keywords">
+        <meta content="Construction Company Website Template" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet"> 
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        <script src='//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js'></script>
+        <link href='//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' rel='stylesheet'></link>
+
+        <!--時間軸 js/css, Copyright (c) 2016 eeyellow-->
+        
+        <script>
+        //<![CDATA[
+        (function(e,b,a,f){var d="vivaTimeline";var c=function(h,g){this.target=h;this.carouselInterval;this.checkImgLoad;this.imgLoad=false;this._init(g);this._event()};c.options={carousel:true,carouselTime:10000};c.prototype={_init:function(h){var g=this;g.options=e.extend(true,{},c.options,h);g.target.find(".events-body").each(function(){var l=e(this).find(".row").length;if(l>1){var k="<ol>";for(var j=0;j<l;j++){k+="<li data-target='"+j+"'></li>"}k+="</ol>";e(this).siblings(".events-footer").html(k).find("li").first().addClass("active")}});g.target.find(".events-body").each(function(){e(this).find(".row").first().show().siblings().hide()});g.target.find("img").on("load",function(){g.target.find(".events-body").each(function(){var i=0;e(this).find(".row").each(function(){if(e(this).height()>i){i=e(this).height()}});e(this).find(".row").height(i)})})},_event:function(){var g=this;g.target.find(".events-header").click(function(){e(this).siblings(".events-body").slideToggle().end().siblings(".events-footer").toggle()});g.target.find(".events-footer li").click(function(){g._carousel(e(this))});if(g.options.carousel){g.carouselInterval=setInterval(function(){g._carousel()},g.options.carouselTime);g.target.find(".events").hover(function(){clearInterval(g.carouselInterval);g.carouselInterval=null},function(){if(g.carouselInterval==f){g.carouselInterval=setInterval(function(){g._carousel()},g.options.carouselTime)}})}},_carousel:function(h){var g=this;if(h==f){g.target.find(".events-footer .active").each(function(){var j;if(e(this).is(":last-child")){j=e(this).siblings().first()}else{j=e(this).next()}g._carousel(j)})}else{var i=h.data().target;h.addClass("active").siblings().removeClass("active");h.closest(".events-footer").siblings(".events-body").find(".row").eq(i).show().siblings().hide()}}};e.fn[d]=function(h,g){var i;this.each(function(){i=new c(e(this),h)});return this}})(jQuery,window,document);
+        //]]>
+        </script>
+        <!--時間軸 js/css-->
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <!-- Top Bar Start -->
+            <div class="top-bar">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 col-md-12">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <h1>What's IT & HPT</h1>
+                                    <!-- <img src="img/logo.jpg" alt="Logo"> -->
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-6 d-none d-lg-block">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <div class="top-bar-item">
+                                        <div class="top-bar-icon">
+                                            <i class="flaticon-call"></i>
+                                        </div>
+                                        <div class="top-bar-text">
+                                            <h3>Call Us</h3>
+                                            <p>+1 812 856 8450</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="top-bar-item">
+                                        <div class="top-bar-icon">
+                                            <i class="flaticon-send-mail"></i>
+                                        </div>
+                                        <div class="top-bar-text">
+                                            <h3>Email Us</h3>
+                                            <p>istdept@indiana.edu</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Top Bar End -->
+
+            <!-- Nav Bar Start -->
+            <div class="nav-bar">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                        <a href="#" class="navbar-brand">MENU</a>
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                                <a href="index.html" class="nav-item nav-link active">Home</a>
+                                <div class="navbar-nav mr-auto">
+                                    <div class="nav-item dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Instructional Technology</a>
+                                        <div class="dropdown-menu">
+                                            <a href="it-overview.html" class="dropdown-item">IT Overview</a>
+                                            <a href="it-history.html" class="dropdown-item">History</a>
+                                            <a href="it-people.html" class="dropdown-item">Influential People</a>
+                                            <a href="it-learning-theories.html" class="dropdown-item">Learning Theories</a>
+                                            <a href="it-isd.html" class="dropdown-item">Instructional Systems Design</a>
+                                            <a href="it-ethics.html" class="dropdown-item">Ethics</a>
+                                        </div>
+                                    </div>
+                                    <div class="nav-item dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Human Performance Technology</a>
+                                        <div class="dropdown-menu">
+                                            <a href="hpt-overview.html" class="dropdown-item">HPT Overview</a>
+                                            <a href="hpt-history.html" class="dropdown-item">History</a>
+                                            <a href="hpt-people.html" class="dropdown-item">Influential People</a>
+                                            <a href="hpt-big-idea.html" class="dropdown-item">Big Idea</a>
+                                            <a href="hpt-ethics.html" class="dropdown-item">Ethics</a>
+                                        </div>
+                                    </div> 
+                                    <div class="nav-item dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">IT & HPT Examples</a>
+                                        <div class="dropdown-menu">
+                                            <a href="example-coastguard.html" class="dropdown-item">Coast Guard</a>
+                                            <a href="example-higher-education.html" class="dropdown-item">Higher Education</a>
+                                        </div>
+                                    </div> 
+                                    <div class="nav-item dropdown">
+                                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Resources</a>
+                                        <div class="dropdown-menu">
+                                            <a href="resources-book-paper.html" class="dropdown-item">Books & Papers</a>
+                                            <a href="resources-video-01.html" class="dropdown-item">Videos</a>
+                                            <a href="resources-website.html" class="dropdown-item">Websites</a>
+                                            <a href="resources-reference.html" class="dropdown-item">References</a>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- Nav Bar End -->
+            
+            
+            <!-- Page Header Start -->
+            <div class="page-header">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Human Performance Technology History</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Page Header End -->
+
+
+            <!-- About Start -->
+            <div class="about wow fadeInUp" data-wow-delay="0.1s">
+                <div class="container">
+                    <div class="VivaTimeline">
+                        <dl>
+                        
+                        <!--Year 1-->
+                        <dt>1960s</dt>
+                        
+                        <!--左側文章 start-->
+                        <dd class="pos-left clearfix">
+                        <div class="circ"></div>
+                        <div class="time">1962</div><!--填入日期-->
+                        <div class="events">
+                        <div class="events-header">
+                            University of Michigan’s Center for Programmed Learning for Business was Fouded<br>
+                            ISPI was Founded under the Name <i>National Society for Programmed Instruction (NSPI)</i>
+                        </div><!--填入標題-->
+                        </div>
+                        </dd>
+                        <!--左側文章 end-->
+                        
+                        <!--右側文章 start-->
+                        <dd class="pos-right clearfix">
+                        <div class="circ"></div>
+                        <div class="time">1965</div><!--填入日期-->
+                        <div class="events">
+                        <div class="events-header">The Focus on Measurable Results</div><!--填入標題-->
+                        </div>
+                        </dd>
+
+                        <dt>1970s</dt>
+                        
+                        <dd class="pos-left clearfix">
+                            <div class="circ"></div>
+                            <div class="time">1970</div><!--填入日期-->
+                            <div class="events">
+                            <div class="events-header">
+                                Joe Harless published <i>An Ounce of Analysis</i><br>
+                                Gilbert created the "Behavior Engineering Model"
+                            </div><!--填入標題-->
+                            </div>
+                        </dd>
+                        <dd class="pos-right clearfix">
+                            <div class="circ"></div>
+                            <div class="time">1973</div><!--填入日期-->
+                            <div class="events">
+                            <div class="events-header">NSPI name changed to <i>National Society for Performance and Instruction</i></div><!--填入標題-->
+                            </div>
+                        </dd>
+
+                        <dt>1980s</dt>
+
+                        <dt>1990s</dt>
+
+                        <dd class="pos-left clearfix">
+                            <div class="circ"></div>
+                            <div class="time">1990</div><!--填入日期-->
+                            <div class="events">
+                            <div class="events-header">Human Performance Improvement Emerged</div><!--填入標題-->
+                            </div>
+                        </dd>
+                        <dd class="pos-right clearfix">
+                            <div class="circ"></div>
+                            <div class="time">1995</div><!--填入日期-->
+                            <div class="events">
+                            <div class="events-header">NSPI becomes the ISPI</div><!--填入標題-->
+                            </div>
+                        </dd>                  
+                        <!--右側文章 end-->
+                        
+                        <!--月份 2-->
+                        <dt>2000</dt>
+                        
+                        <dd class="pos-left clearfix">
+                        <div class="circ"></div>
+                        <div class="time">2002</div><!--填入日期-->
+                        <div class="events">
+                        <div class="events-header">ISPI Created the Certified Performance Technologist program</div><!--填入標題-->
+                        </div>
+                        </dd>
+                        <dd class="pos-right clearfix">
+                            <div class="circ"></div>
+                            <div class="time">2004</div><!--填入日期-->
+                            <div class="events">
+                            <div class="events-header">
+                                Van Tiem, Moseley & Dessainger' HPT Model is Adopted by the ISPI <br>
+                                Rummler Produces the Human Performance Systems Model 
+                            </div><!--填入標題-->
+                            </div>
+                            </dd>
+                        </dl>
+                        </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+            <!-- Footer Start -->
+            <div class="footer wow fadeIn" data-wow-delay="0.3s">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3">
+                            <div class="footer-contact">
+                                <h2>Office Contact</h2>
+                                <p><i class="fa fa-map-marker-alt"></i>201 N. Rose Avenue, Bloomington, IN, USA</p>
+                                <p><i class="fa fa-phone-alt"></i>+1 812 856 8450</p>
+                                <p><i class="fa fa-envelope"></i>istdept@indiana.edu</p>
+                                <div class="footer-social">
+                                    <a href="https://twitter.com/IUSchoolofEd"><i class="fab fa-twitter"></i></a>
+                                    <a href="https://www.facebook.com/IUSchoolofEd"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="https://www.youtube.com/user/iuschoolofeducation"><i class="fab fa-youtube"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="footer-link">
+                                <h2>Resources</h2>
+                                <a href="resources-book-paper.html">Books & Papers</a>
+                                <a href="resources-video-01.html">Videos</a>
+                                <a href="resources-website.html">Websites</a>
+                                <a href="resources-reference.html">References</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="footer-link">
+                                <h2>IU IST</h2>
+                                <a href="https://education.indiana.edu/programs/instructional-systems-technology.html">About Us</a>
+                                <a href="https://education.indiana.edu/machform/view.php?id=319252">Contact Us</a>
+                                <a href="https://education.indiana.edu/about/directory/index.html?status=Faculty&affiliation=Instructional%20Systems%20Technology">Our Faculty</a>
+                                <a href="https://education.indiana.edu/programs/graduate/masters/instructional-systems-technology.html">Our Programs</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="newsletter">
+                                <h2>Newsletter</h2>
+                                <p>
+                                    Keep up with IUIST's students, faculty, and alumni as they work to improve teaching, learning, and human development around the globe.                                </p>
+                                <div class="form">
+                                    <button class="btn">
+                                        <a href="https://education.indiana.edu/machform/view.php?id=323240">Subscribe</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container copyright">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>&copy; <a href="#">What is IT & HPT</a>, All Right Reserved.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p>Designed By <a href="https://htmlcodex.com">Pei-Shan Hsieh & Mark Tatara</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+
+            <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script>
+            //<![CDATA[
+            /*執行時間軸*/
+            $(".VivaTimeline").vivaTimeline();
+            //]]>
+        </script>
+    </body>
+</html>
