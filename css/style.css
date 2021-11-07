@@ -36,8 +36,8 @@ a:focus {
 
 .wrapper {
     position: relative;
-    width: 100%;
     max-width: 1366px;
+    width: 100%;
     margin: 0 auto;
     background: #ffffff;
 }
@@ -2430,9 +2430,9 @@ a:focus {
 .VivaTimeline dl dd .events {
     position:relative;
     width:47%;
-    padding:10px 0 0;
+    padding:10px 10px;
     margin-top:31px;
-    background-color:#CCC;
+    background-color:rgb(245, 245, 245);
     border-radius:4px;
     -webkit-border-radius:4px;
     -moz-border-radius:4px
@@ -2451,11 +2451,9 @@ a:focus {
 }
 
 .VivaTimeline dl dd .events .events-header {
-    min-height:30px;
     line-height:20px;
     text-align:center;
     font-size:16px;
-    font-weight:bold;
 }
 
 .VivaTimeline dl dd .events .events-body {
@@ -2509,7 +2507,7 @@ a:focus {
 
 .VivaTimeline dl dd.pos-right .events:before {
     left:-12px;
-    border-color:transparent #CCC transparent transparent
+    border-color:transparent rgb(245, 245, 245) transparent transparent
 }
 
 .VivaTimeline dl dd.pos-left .time {
@@ -2523,7 +2521,7 @@ a:focus {
 
 .VivaTimeline dl dd.pos-left .events:before {
     right:-12px;
-    border-color:transparent transparent transparent #CCC
+    border-color:transparent transparent transparent rgb(245, 245, 245)
 }
 
 .VivaTimeline .carousel-indicators {
@@ -2555,7 +2553,7 @@ a:focus {
     }
     .VivaTimeline dl dd.pos-left .events:before {
         left:-12px;
-        border-color:transparent #CCC transparent transparent
+        border-color:transparent rgb(244, 241, 241) transparent transparent
     }
     .VivaTimeline dl dd.pos-right .time {
         padding:10px 0;
@@ -2579,4 +2577,8 @@ a:focus {
             width:63%;
             margin-right:4%
         }
+    }
+
+    .reference{
+        line-height: 40px;
     }
